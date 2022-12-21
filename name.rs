@@ -23,3 +23,9 @@ ancestor
 fopen_or_warn
 
 dry_run() // 排练
+string_list_clear() // 重置
+xxx_on_updating_xxx() // 更新操作
+is_racy_timestamp() // 时间是否没有改变
+smudge_racily_clean_xxx // 清除到原始状态
+add_path_to_appropriate_result_list // 添加
+sanitize // 清洁 净化
