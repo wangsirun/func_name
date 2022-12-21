@@ -23,3 +23,11 @@ static struct {
 	[ADVICE_AM_WORK_DIR] 				= { "amWorkDir", 1 },
     }
 ---------------------------------------
+可以参考的配置名称
+ enum advice_type {
+	ADVICE_ADD_EMBEDDED_REPO,
+	ADVICE_ADD_EMPTY_PATHSPEC,
+	ADVICE_ADD_IGNORED_FILE,
+};
+重点是前缀格式。
+---------------------------------------
